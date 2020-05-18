@@ -1,4 +1,5 @@
-Proceso sin_titulo
+Proceso sin_titulo
+
 	Leer variable;
 	Si variable=5 Entonces
 		Escribir "es 5";
@@ -9,7 +10,7 @@ Proceso sin_titulo
 			Si variable=20 Entonces
 				Escribir "es 20";
 			SiNo
-				Escribir "no era ninguno de los que quería";
+				Escribir "no era ninguno de los que querÃ­a";
 			FinSi
 		FinSi
 	FinSi
