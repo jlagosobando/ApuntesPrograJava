@@ -7,9 +7,9 @@ Proceso operadores_Aritmeticos
 	Escribir num1+num2;
 	Escribir "Resta";
 	Escribir num1-num2;
-	Escribir "Multiplicación";
+	Escribir "MultiplicaciÃ³n";
 	Escribir num1*num2;
-	Escribir "División";
+	Escribir "DivisiÃ³n";
 	Escribir num1/num2;
 	Escribir "Resto";
 	Escribir num1%num2;
