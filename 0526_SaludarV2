@@ -29,27 +29,23 @@ Proceso Saludov_segun
 		
 	Hasta Que seguir = Verdadero
 	
-	//Prueba de Saludov2 con estructura segun
-	si	hora>=24 | hora<0 | minut<0 | minut>=60 Entonces
-		Escribir "Formato de hora ingresada no válida";
+	si	hora>=6 & hora<=11 Entonces
+		ejecutar<-1;
 	SiNo
-		si	hora>=6 & hora<=11 Entonces
-			ejecutar<-1;
+		si	(hora>=12 & hora<18) | (hora=18 & minut>=0 & minut<=30) Entonces
+			ejecutar<-2;
 		SiNo
-			si	(hora>=12 & hora<18) | (hora=18 & minut>=0 & minut<=30) Entonces
-				ejecutar<-2;
-			SiNo
-				ejecutar<-3;
-			FinSi
+			ejecutar<-3;
 		FinSi
-		
-		Segun ejecutar Hacer
-			1:
-				Escribir "Buen día!";
-			2:
-				Escribir "Buenas tardes";
-			3:
-				Escribir "Buenas noches, a mimir";
-		FinSegun
 	FinSi
+		
+	Segun ejecutar Hacer
+		1:
+			Escribir "Buen día!";
+		2:
+			Escribir "Buenas tardes";
+		3:
+			Escribir "Buenas noches, a mimir";
+	FinSegun
+	
 FinProceso
