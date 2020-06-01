@@ -5,13 +5,13 @@ Proceso camionV2
 	// salida:  Costo del transporte
 	
 	//declaración de variables y constantes
-	Definir combustible, km, carga, rendimiento, rendimientoCG,rendimientoCP como real;
+	Definir vCombustible, km, carga, rendimiento, rendimientoCG,rendimientoCP como real;
 	rendimientoCP <- 23; //constante
 	rendimientoCG <- 20; //constante
 	
 	//entradas
 	Escribir "Ingresa el valor del Combustible";
-	leer combustible;
+	leer vCombustible;
 	Escribir "Ingresa el kilometraje";
 	leer km;
 	Escribir "Ingresa en el peso de la carga";
