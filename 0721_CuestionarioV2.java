@@ -13,26 +13,26 @@ public class CuestionarioV2 {
      //dv
         int cantidad=0,i,a,b,c=0,op,res=0,conta=0;
         boolean cumple=false;
-                
+        
         Scanner teclado = new Scanner(System.in);
         
         while(cumple==false){
-        try{
-        while(cantidad<1){
-        System.out.println("Ingresa cantidad de ejercicios");
-        cantidad = teclado.nextInt();}//fin whilecantidad
-        cumple=true;
-        }//fin try
-        catch(Exception e){
-            System.out.println("Ingrese un valor adecuado");
-            teclado.next();
-        }//fin catch
-        }//fin whilecumple
-
-
+            try{
+                while(cantidad<1){    
+                    System.out.println("Ingresa cantidad de ejercicios");
+                    cantidad = teclado.nextInt();}//fin whilecantidad
+            
+                    cumple=true;}//fin try 
+            catch (Exception e){
+                System.out.println("Ingrese un valor adecuado");
+                teclado.next();       }//fin catch
+        
+        }//fin while cumple
+        
+               
         
         for(i=0;i<cantidad;i++)
-        {   cumple=true;
+        {   cumple=false;
             a=(int)(Math.random()*10);
             b=(int)(Math.random()*10);
             op=(int)(Math.random()*4)+1;
@@ -53,24 +53,29 @@ public class CuestionarioV2 {
              case 4:
                 c=a/b;
                 System.out.println(a+"/"+b+"= ");
-                break;   
+                break;
             }//fin switch
             
             while(cumple==false){
             try{
-            res=teclado.nextInt();
-            cumple=true;}//fin try
-            catch (Exception e){
-            System.out.println("Ingrese un valor adecuado");
-            teclado.next();}//fin catch
-            }//fin whilecumple
+                res=teclado.nextInt();
             
-            if(c==res){conta++;}  
+                cumple=true;}//fin try 
+            catch (Exception e){
+                System.out.println("Ingrese un valor adecuado");
+                teclado.next();       }//fin catch
+        
+            }//fin while cumple
+            
+            if(c==res){conta++;}   
+            
+            
         }//fin for
         
-        System.out.println("Su rendimiento fue "+conta+" de "+cantidad);    
+        System.out.println("Su rendimiento fue "+conta+" de "+cantidad);
         
  
         }//fin main
     }//fin class
+
 
