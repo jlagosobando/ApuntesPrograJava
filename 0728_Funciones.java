@@ -1,7 +1,3 @@
-// entrada: largo del cuestion. int cantidad
-// proceso: generar "cantidad" preguntas - mostrarlas al usuario - responderlas - evaluar
-// salida: puntaje 
-
 package com.mycompany.icc7002;
 
 import java.util.Scanner;
