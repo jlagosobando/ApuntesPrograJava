@@ -25,9 +25,7 @@ public class ClasiNum {
             res="Neutro";
             }
         }
-        
         //salida
         System.out.println("Su número es "+res);
-  
-    }  
+     }  
 }  
