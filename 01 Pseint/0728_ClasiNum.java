@@ -27,5 +27,6 @@ public class ClasiNum {
         }
         //salida
         System.out.println("Su número es "+res);
-     }  
+     
+	}  
 }  
