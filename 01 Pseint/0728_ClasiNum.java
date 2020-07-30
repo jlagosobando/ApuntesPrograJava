@@ -1,5 +1,6 @@
 //en mi caso los decimales funcionan con coma
 
+
 import java.util.Scanner;
 
 public class ClasiNum {
