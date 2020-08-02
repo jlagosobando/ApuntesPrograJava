@@ -58,7 +58,7 @@ public class CuestionarioV4 {
                 catch(ArithmeticException e){
                 c=0; }//fin catch
                 
-                System.out.println(a+"/"+b+"= "+c);                 
+                System.out.println(a+"/"+b+"= ");                 
                 break;
             }//fin switch
             
