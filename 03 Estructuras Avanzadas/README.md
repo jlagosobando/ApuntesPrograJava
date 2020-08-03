@@ -1,1 +1,1 @@
-Sección que contiene contenidos generales hasta estructuras de control, implementados en Pseint
+Sección que contiene contenidos avanzados como manejo de excepciones y funciones, implementados en Pseint
