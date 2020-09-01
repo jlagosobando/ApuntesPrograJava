@@ -18,7 +18,7 @@ public class Matrices {
         for (i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
-        System.out.println("\n");
+        System.out.print("\n");
     }
     
     public static void printMatrix(String[][] matrix) {
@@ -27,7 +27,7 @@ public class Matrices {
             for (j = 0; j < matrix[i].length; j++) { //columnas
                 System.out.print(matrix[i][j] + " ");
             }
-            System.out.println("\n");
+            System.out.print("\n");
         }
     }
     
@@ -37,7 +37,7 @@ public class Matrices {
             for (j = 0; j < matrix[i].length; j++) {
                 System.out.print(matrix[i][j] + " ");
             }
-            System.out.println("\n");
+            System.out.print("\n");
         }
     }
     
