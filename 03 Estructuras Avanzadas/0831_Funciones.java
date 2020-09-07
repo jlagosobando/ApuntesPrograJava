@@ -9,7 +9,7 @@ public class Funciones {
  
        //con args sin return
        public static void saludar(String name){
-            System.out.println("Hola! "+name+" Bienvenide al programa"); 
+            System.out.println("Hola "+name+"! Bienvenide al programa"); 
         
         }
         
