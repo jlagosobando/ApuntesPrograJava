@@ -31,6 +31,10 @@ public class Main {
         cajero3.darGracias();
         
         cajero2.cobrar(5620,10000);
+        System.out.println("******");
+        
+        
+        
     }
     
 }
