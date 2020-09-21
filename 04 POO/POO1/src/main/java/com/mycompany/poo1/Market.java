@@ -96,4 +96,14 @@ public class Market {
 
     }
 
+    public void printStock() {
+        int i, j;
+        for (i = 0; i < this.stock.length; i++) {     //filas
+            for (j = 0; j < this.stock[i].length; j++) { //columnas
+                System.out.print(this.stock[i][j] + " ");
+            }
+            System.out.println("\n");
+        }
+    }
+    
 }

@@ -33,8 +33,16 @@ public class Main {
         cajero2.cobrar(5620,10000);
         System.out.println("******");
         
+        Market minimarket = new Market();
+        System.out.println(minimarket.getNombre());
         
+        minimarket.printStock();
         
+       // minimarket.setStock(2);
+        minimarket.printStock();
+        
+        minimarket.getCajero().setNombre("el perkin del minimarket");
+        minimarket.getCajero().saludar();
     }
     
 }
