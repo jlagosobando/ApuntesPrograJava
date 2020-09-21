@@ -38,7 +38,7 @@ public class Main {
         
         minimarket.printStock();
         
-       // minimarket.setStock(2);
+        minimarket.setStock(2);
         minimarket.printStock();
         
         minimarket.getCajero().setNombre("el perkin del minimarket");
