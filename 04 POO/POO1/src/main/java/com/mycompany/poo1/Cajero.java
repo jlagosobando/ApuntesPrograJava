@@ -9,37 +9,41 @@ package com.mycompany.poo1;
  *
  * @author Juan
  */
-public class Cajero{
+public class Cajero extends Persona{
 
-    private String nombre;
     private int clave;
     private String colorRopa;
     private boolean trabajando;
 
     public Cajero() {
-        this.nombre = "Indefino";
+        super();
         this.clave = -1;
         this.colorRopa = "rojo";
         this.trabajando=false;
     }
 
     public Cajero(String nombre, int clave) {
-        this.nombre = nombre;
+        super(nombre);
         this.clave = clave;
         this.colorRopa = "rojo";
         this.trabajando=false;
     }
     
     public Cajero(String nombre, int clave, boolean estado) {
-        this.nombre = nombre;
+        super(nombre);
         this.clave = clave;
         this.colorRopa = "rojo";
         this.trabajando=estado;
     }
-
-    public String getNombre() {
-        return nombre;
+    
+    public Cajero(String nombre, int edad, double altura, int clave, String ropa, boolean estado){
+        super(nombre, edad, altura);
+        this.clave = clave;
+        this.colorRopa = ropa;
+        this.trabajando=estado;
+    
     }
+    
 
     public int getClave() {
         return clave;
@@ -53,9 +57,7 @@ public class Cajero{
         return trabajando;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
+    
 
     public void setClave(int clave) {
         this.clave = clave;
@@ -69,9 +71,7 @@ public class Cajero{
         this.trabajando = !trabajando;
     }
     
-    public void saludar(){
-        System.out.println("Hola! Buen día vecino, soy "+nombre);
-    }
+    
     
     public void darGracias(){
         System.out.println("Gracias por su compra!");
@@ -88,6 +88,15 @@ public class Cajero{
     return hay;
     }
     
+    @Override
+    public void saludar(){
+        System.out.println("Hola! Buen día vecino, soy su cajero "+super.getNombre());
+    }
     
+    
+    @Override
+    public String toString(){
+    return "Soy un cajero y mi nombre es "+super.getNombre();
+    }
     
 }
