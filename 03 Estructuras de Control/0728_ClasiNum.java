@@ -1,31 +1,36 @@
-//en mi caso los decimales funcionan con coma
-
 import java.util.Scanner;
 
-public class ClasiNum {
+public class Clasificador {
     public static void main(String[] args){
-        double n;
-        String res;
+        //d.v.
+        Scanner teclado=new Scanner(System.in);
+        double num;
+        String res="";
         
-        Scanner teclado = new Scanner(System.in);
         
-        //entrada
-        System.out.println("Ingrese su número");
-        n = teclado.nextDouble();
+        //e
+        System.out.println("Ingrese un número");
         
-        //proceso
-        if(n<0){
-            res="Negativo";
-        }
-        else{
-            if(n>0){
-            res="Positivo";
+        try
+            {num=teclado.nextDouble();
+            //p
+            if(num>0)
+                {res="positivo";}
+            else
+                {   if(num<0)
+                        {res="negativo";}
+                    else
+                        {res="neutro";}
+                }
+            //s
+            System.out.println("Su número es "+res);
             }
-            else{
-            res="Neutro";
-            }
+     
+        catch (Exception e)
+            {System.out.println("Ingreso erroneo de num");}
+        
+
         }
-        //salida
-        System.out.println("Su número es "+res);
-     }  
-}  
+   
+    }
+
