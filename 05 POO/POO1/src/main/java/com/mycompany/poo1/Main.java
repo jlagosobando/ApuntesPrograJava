@@ -1,15 +1,25 @@
 
 package com.mycompany.poo1;
 
+import java.io.IOException;
 import java.nio.file.Files;
 import java.util.Scanner;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 /**
  *
  * @author Juan
  */
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+
+    Logger logger = Logger.getLogger(Main.class.getName());
+    FileHandler fileLog = new FileHandler("mylog.log");
+    logger.addHandler(fileLog);
+
+
         Scanner teclado = new Scanner(System.in);
         String n="Don Mario";
         int pass=1234;
@@ -28,6 +38,7 @@ public class Main {
         
         cajero0.setNombre("Julito");
         System.out.println(cajero0.getNombre());
+        logger.info("Se creó cajero llamado "+cajero0.getNombre());  
         
         System.out.println(cajero3.isTrabajando());
         cajero3.saludar();
@@ -39,9 +50,7 @@ public class Main {
         Market minimarket = new Market();
         System.out.println(minimarket.getNombre());
         
-        
-        
-        
+       
         /*
         minimarket.printStock();
         
@@ -66,6 +75,10 @@ public class Main {
 
         System.out.println(cajero4);
         cajero4.saludar();
+        
+       
+        logger.info("Proceso Finalizado");  
+        
     }
     
 }
