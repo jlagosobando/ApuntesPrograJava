@@ -1,5 +1,5 @@
-# Intro. a la Programación en Java
-Repositorio que recopila ejercicios y códigos del ramo de Introducción a la Programación (o equivalente) y su desarrollo.
+# Programación en Java
+Repositorio que recopila ejercicios y códigos de uso academico para aprender Programación con el lenguaje Java.
 
-Considere que los ejercicios recopilados pueden estar como scripts aislados, por ende en su ejecución podrían requerir ciertas intervenciones.
+Considere que varios de los ejercicios recopilados pueden estar como scripts aislados, por ende en su ejecución podrían requerir ciertas intervenciones.
 
