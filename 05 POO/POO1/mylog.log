@@ -1,28 +1,4 @@
-<?xml version="1.0" encoding="windows-1252" standalone="no"?>
-<!DOCTYPE log SYSTEM "logger.dtd">
-<log>
-<record>
-  <date>2021-01-28T05:24:23.021165100Z</date>
-  <millis>1611811463021</millis>
-  <nanos>165100</nanos>
-  <sequence>0</sequence>
-  <logger>com.mycompany.poo1.Main</logger>
-  <level>INFO</level>
-  <class>com.mycompany.poo1.Main</class>
-  <method>main</method>
-  <thread>1</thread>
-  <message>Se creó cajero llamado Julito</message>
-</record>
-<record>
-  <date>2021-01-28T05:24:23.065704300Z</date>
-  <millis>1611811463065</millis>
-  <nanos>704300</nanos>
-  <sequence>1</sequence>
-  <logger>com.mycompany.poo1.Main</logger>
-  <level>INFO</level>
-  <class>com.mycompany.poo1.Main</class>
-  <method>main</method>
-  <thread>1</thread>
-  <message>Proceso Finalizado</message>
-</record>
-</log>
+ene. 28, 2021 11:16:35 A. M. com.mycompany.poo1.Main main
+INFO: Se creó cajero llamado Julito
+ene. 28, 2021 11:17:08 A. M. com.mycompany.poo1.Main main
+INFO: Proceso Finalizado
