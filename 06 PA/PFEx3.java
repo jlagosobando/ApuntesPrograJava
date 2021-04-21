@@ -1,10 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.mycompany.icc7002;
-
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
@@ -16,11 +9,11 @@ import java.util.stream.Collectors;
  * @author Juan
  */
 public class PFEx3 {
-    
+
     static Scanner teclado = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int a = 0;
+
         List<Integer> lista = new ArrayList<>();
         lista.add(64);
         lista.add(23);
@@ -28,9 +21,9 @@ public class PFEx3 {
         lista.add(87);
         lista.add(91);
         List<Integer> numMayores;
-               
-        doubleInput(a);
-        
+
+        double a=doubleInput();
+
         Long result = lista.stream().filter(num -> num > a).count();
         System.out.println(result);
         numMayores = lista.stream().filter(num -> num > a).collect(Collectors.toList());
@@ -38,9 +31,9 @@ public class PFEx3 {
 
     }
 
-    private static double doubleInput(double a) {
+    private static double doubleInput() {
         boolean repetir = true;
-        a=0;
+        double a=0;
         while (repetir) {
             try {
                 System.out.println("Ingrese valor para A");
@@ -51,8 +44,9 @@ public class PFEx3 {
                 System.out.println("A debe ser num");
             }
         }
-        
+
         return a;
     }
 
 }
+
