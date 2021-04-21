@@ -6,6 +6,7 @@ Proceso EP13
 	Definir titulo, mensaje Como Caracter;
 	Definir minuto Como Entero;
 	Definir continuar Como Logico;
+	
 	continuar<-Verdadero;
 	Escribir "Ingrese titulo del evento";
 	Leer titulo;
@@ -21,7 +22,7 @@ Proceso EP13
 		Escribir "Ingrese mensaje";
 		Leer mensaje;
 		
-		Si mensaje="#SALIR!" Entonces
+		Si mensaje="#SALIR!" y minuto=0 Entonces
 			Escribir "Evento concluido";
 			continuar<-Falso;
 		SiNo

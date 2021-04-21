@@ -10,19 +10,19 @@ Proceso EP11
 	precioPrincipal<-3000;
 	precioPostre<-1000;
 	
-	valido<-Falso;
+	
 	Repetir
 		Escribir "ingrese cuantas entradas quiere";
 		Leer cantEntrada;
 	Hasta Que cantEntrada>=0
 	
-	valido<-Falso;
+	
 	Repetir
 		Escribir "ingrese cuantos platos principales quiere";
 		Leer cantPrincipal;
 	Hasta Que cantPrincipal>=0
 	
-	valido<-Falso;
+	
 	Repetir
 		Escribir "ingrese cuantos postres quiere";
 		Leer cantPostre;
