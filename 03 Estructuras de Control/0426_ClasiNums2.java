@@ -1,31 +1,29 @@
 import java.util.Scanner;
 
-public class ClasNums
+public class ClasNums2
 {
   public static void main(String[] args){
             //d.v.
             double N;
-            String res;
+            
             Scanner teclado = new Scanner(System.in); 
             
             System.out.println("Ingrese un num");
             N = teclado.nextDouble();
             
             if (N<0){
-                res="Negativo"; }
+                System.out.println("Su num es Negativo"); }
             else{    
                  if (N>0){
-                        res="Positivo";}
+                        System.out.println("Su num es Positivo");}
                  else{
-                        res="Neutro";
+                        System.out.println("Su num es Neutro");
                     
                  }       
                 
                 }    
             
-            System.out.println("Su num es "+res);
-        
+
     }
 }
-
 
