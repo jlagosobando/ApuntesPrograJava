@@ -36,9 +36,9 @@ public class Matrices {
         
         printMatrix(matriz2);
         
-        
+        //tarea
         //1ra: hacer una matriz simetrica que rellene su contenido desde abajo/derecha hasta arriba/izquierda 
-        //2da: hacaer función de matriz transpuesta
+        //2da: hacer función de matriz transpuesta
         
         
         
