@@ -50,7 +50,7 @@ public class PFEx {
         enMayusculas4 = diccionario.stream()
                 .filter(t -> t.equals(t.toUpperCase()))
                 .collect(Collectors.toList());
-        System.out.println(enMayusculas3);
+        System.out.println(enMayusculas4);
         
         
         
