@@ -26,7 +26,7 @@ public class PFEx3 {
 
         Long result = lista.stream().filter(num -> num > a).count();
         System.out.println(result);
-        numMayores = lista.stream().filter(num -> num > a).collect(Collectors.toList());
+        numMayores = lista.stream().filter(num -> num > a).toList();
         System.out.println(numMayores);
 
     }
