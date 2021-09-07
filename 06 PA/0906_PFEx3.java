@@ -25,9 +25,9 @@ public class PFEx3 {
         double a=doubleInput();
 
         Long result = lista.stream().filter(num -> num > a).count();
-        System.out.println(result);
+        System.out.println("Hay "+result+" mayores que "+a);
         numMayores = lista.stream().filter(num -> num > a).toList();
-        System.out.println(numMayores);
+        System.out.println("... y ellos son: "+numMayores);
 
     }
 
