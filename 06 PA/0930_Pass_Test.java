@@ -1,50 +1,51 @@
-package com.example.testeo;
-//recuerden revisar package al copiar
-//decidi dejar los sout para que vean como es la misma pass evaluada en cada test
+package com.example.test;
+
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeAll;
+
 import static com.example.dev.Main_Pass.*;
 
+// meto. creador password alfanum. aleatorias
+// pass debe tener una largo entre 6 y 10 *
+// es que debe alfanum *
+// debe tener al menos una letra *
+// debe tener por lo menos 1 mayus *
+// debe tener al menos un num *
 
 
-public class Pass_Test2 {
+public class Pass_Test {
 
-    static String pass2check=null;
+    static String pass2check = null;
 
     @BeforeAll
-    public static void setup(){
-    pass2check=Gen_Pass();}
-
+    public static void setUp() {
+        pass2check = Gen_Pass();
+    }
 
     @Test
     public void check_length() {
-        int passLength = pass2check.length();;
-        Assertions.assertTrue(passLength >= 6 && passLength <= 10);
-        System.out.println(pass2check);
+        int largo = pass2check.length();
+        Assertions.assertTrue(largo >= 6 && largo <= 10);
     }
 
     @Test
     public void check_alphanum() {
-        System.out.println(pass2check);
         Assertions.assertTrue(pass2check.matches("^[a-zA-Z0-9]*$"));
-        System.out.println(pass2check);
     }
 
-
     @Test
-    public void check_alpha() {
+    public void check_alpha(){
         boolean flag=false;
 
         for(int i=0;i<pass2check.length();i++){
-
             if(Character.isAlphabetic(pass2check.charAt(i))){
                 flag=true;
                 break;
             }
         }
         Assertions.assertTrue(flag);
-        System.out.println(pass2check);
     }
 
     @Test
@@ -52,33 +53,28 @@ public class Pass_Test2 {
         boolean flag=false;
 
         for(int i=0;i<pass2check.length();i++){
-
-            if (Character.isUpperCase(pass2check.charAt(i))){
+            if(Character.isUpperCase(pass2check.charAt(i))){
                 flag=true;
                 break;
             }
         }
 
         Assertions.assertTrue(flag);
-        System.out.println(pass2check);
+
     }
 
     @Test
     public void check_number(){
         boolean flag=false;
 
-
         for(int i=0;i<pass2check.length();i++){
-
-            if (Character.isDigit(pass2check.charAt(i))){
+            if(Character.isDigit(pass2check.charAt(i))){
                 flag=true;
                 break;
             }
         }
 
         Assertions.assertTrue(flag);
-        System.out.println(pass2check);
-
 
     }
 
