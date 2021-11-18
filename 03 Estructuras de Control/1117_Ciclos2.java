@@ -14,10 +14,7 @@ public class Ciclos2
                 
     System.out.println("a continuación tocaré la puerta tantas veces como me indiques");
     toques=teclado.nextInt();
-    //proceso - salida
-    // si condicion entonces accion
-    // for(inicio;fin;avance)
-    
+    //proceso - salida    
     //mientras
     i=1;
     while(i<=toques){
