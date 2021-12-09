@@ -2,13 +2,14 @@
  * com.example.dev Paquete de desarrollo de la solución
  */
 package com.example.dev;
+// -encoding UTF-8 -charset UTF-8 -docencoding UTF-8
 
 import java.util.ArrayList;
 
 /**
  * Este programa genera la serie de Fibo. tanto a nivel de elementos individuales como de una serie completa de varios digitos. Este proyecto se realizó con TDD
  *
- * @author Juan Lagos
+ * @author Juan Lagos (UFRO)
  * @version 1.0
  * @since 2021-07-14
  *

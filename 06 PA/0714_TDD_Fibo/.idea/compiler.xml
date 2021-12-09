@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="0714_TDD_Fibo" />
         <module name="TDD_Fibo" />
       </profile>
     </annotationProcessing>

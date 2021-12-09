@@ -8,14 +8,6 @@ public class Cargo {
     }
 
 
-    public CalcularVenta()
 
-    int cantidadProductosJulio=5;
-    int ventaJulio=0;
-    int precio;
-        for(int i=1;i<=5;i++){
-        precio=teclado.nextInt();
-        ventaJulio=ventaJulio+precio;
-    }
 
 }
