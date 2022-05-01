@@ -1,0 +1,14 @@
+
+Q
+java:S1854";Remove this useless assignment to local variable "teclado".(ïü®Š
+B
+java:S1481",Remove this unused "teclado" local variable.(ïü®Š
+V	java:S125"<This block of commented-out lines of code should be removed.(ÎĞ®Áÿÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(äşÄı
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(í³µ¨
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(ŞùĞ¨
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(µìŞŒşÿÿÿÿ
+N	java:S106B"9Replace this use of System.out or System.err by a logger.(‘¦¶Ç
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(¸ğ¥·
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(¹¶İÅûÿÿÿÿ
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(¢âˆüÿÿÿÿ

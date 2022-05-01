@@ -1,0 +1,10 @@
+
+k	java:S116"QRename this field "dueÃ±o" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ¬ö¿ûÿÿÿÿ
+E
+java:S1068"*Remove this unused "nombre" private field.(µÿï„ùÿÿÿÿ
+E
+java:S1068"*Remove this unused "dueÃ±o" private field.(œ¬ö¿ûÿÿÿÿ
+E
+java:S1068"/Remove this unused "dependiente" private field.(Êˆ¹Ë
+?
+java:S1068")Remove this unused "stock" private field.(¦©ç´
