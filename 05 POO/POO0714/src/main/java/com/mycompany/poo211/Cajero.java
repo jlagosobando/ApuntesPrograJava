@@ -16,7 +16,6 @@ public class Cajero extends Vendedor {
 
     //const
     public Cajero() {
-        //super("negro");
         super();
         this.setUniforme("negro");
     }

@@ -1,0 +1,12 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«—Êüûÿÿÿÿ8ú·Ìž—0
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úåÞÆ8‰¸Ìž—0
+f	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ª€Î
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‰¶œÌ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(­¯òœüÿÿÿÿ8ª˜Çž—0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(î–º’8™¸Ìž—0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(•ùÂñÿÿÿÿÿ8ÂÙÌž—0
+h	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿›…¶ùÿÿÿÿ
+c	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÂ½ª
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8™¸Ìž—0

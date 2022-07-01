@@ -34,12 +34,7 @@ public static void main(String[] args){
  * @return int Retorna el número de la serie según la posición dada
  *
  * */
-public static int Gen_Fibo(int posicion){
-        if(posicion==1) return 0;
-        if(posicion==2) return 1;
-        else
-            return Gen_Fibo(posicion-2)+Gen_Fibo(posicion-1);
-    }
+
 
 
     /**
@@ -50,11 +45,16 @@ public static int Gen_Fibo(int posicion){
      *
      * */
 
+    public static int Gen_Fibo(int posicion){
+        if(posicion==1) return 0;
+        if(posicion==2) return 1;
+        else
+            return Gen_Fibo(posicion-2)+Gen_Fibo(posicion-1);
+    }
     public static int[] Serie_Fibo(int cantidad){
-        int[] serie_prod = new int[cantidad];
-        int i;
+        int[] serie_prod=new int[cantidad];
 
-        for(i=0;i<cantidad;i++){
+        for(int i=0;i <cantidad;i++){
             serie_prod[i]=Gen_Fibo(i+1);
         }
         return serie_prod;
@@ -62,4 +62,4 @@ public static int Gen_Fibo(int posicion){
 
 
 
-}
+    }

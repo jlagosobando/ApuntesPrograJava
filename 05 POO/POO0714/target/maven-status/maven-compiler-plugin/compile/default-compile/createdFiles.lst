@@ -1,5 +1,8 @@
-com\mycompany\poo211\Vendedor.class
 com\mycompany\poo211\Cajero.class
+com\mycompany\poo211\Cliente.class
+com\mycompany\poo211\Administrador.class
+com\mycompany\poo211\Persona.class
+com\mycompany\poo211\Producto.class
+com\mycompany\poo211\Vendedor.class
 com\mycompany\poo211\Main.class
 com\mycompany\poo211\Minimarket.class
-com\mycompany\poo211\Persona.class

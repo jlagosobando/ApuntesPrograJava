@@ -17,7 +17,7 @@ public class Main {
 
     Scanner teclado = new Scanner(System.in);
 
-    /*
+
     Persona julito = new Persona(); 
     
     julito.setNombre("Julio");
@@ -56,7 +56,7 @@ public class Main {
         Vendedor ximena = new Vendedor("Verde", 21);
         System.out.println("Nombre : " + ximena.getNombre());
         System.out.println("Trabaja a la semana : " + ximena.getJornada());
-*/
+
     
         Cajero antonia = new Cajero();
         System.out.println("el nombre es : " + antonia.getNombre());

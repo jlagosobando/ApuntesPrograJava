@@ -10,7 +10,6 @@ package com.mycompany.poo211;
  * @author Juan
  */
 public class Minimarket {
-    
     private String nombre;
     private Persona dueño;
     private Vendedor dependiente;
