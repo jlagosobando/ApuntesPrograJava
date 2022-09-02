@@ -7,7 +7,5 @@ _
 /src/test/java/com/example/testeo/Fibo_Test.java,8\f\8f741015ee1027070c676c4b4ded635257741369
 <
 TDD_Fibo.iml,8\c\8cd19bb65fb71db064d18ec3e84b1f3638427a9f
-\
-,src/main/java/com/example/dev/Main_Fibo.java,f\4\f462157aa127796d947f705591b66d7e1f9ea310
 _
 /src/main/java/com/example/dev/package-info.java,6\a\6ae68c65e24ccdcba2de76f509397f9c690dcfa3
