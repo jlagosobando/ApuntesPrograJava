@@ -17,37 +17,15 @@ import java.util.ArrayList;
 public class Main_Fibo {
 
 public static void main(String[] args){
-
-System.out.println("Holi")
+    System.out.println("Clase Main");
 
 }
 
     public static int Gen_Fibo(int posicion){
         if(posicion==1) return 0;
         if(posicion==2) return 1;
-        else
-            return Gen_Fibo(posicion-2)+Gen_Fibo(posicion-1);
-    }
-
-    public static int[] Serie_Fibo(int cantidad){
-        int[] serie_prod=new int[cantidad];
-        for(int i=0;i <cantidad;i++){
-            serie_prod[i]=Gen_Fibo(i+1);
-        }
-        return serie_prod;
-    }
-/*
+        else return Gen_Fibo(posicion-1)+Gen_Fibo(posicion-2);}
 
 
-public static int[] Serie_Fibo(int cantidad){
-        int[] serie_prod=new int[cantidad];
-
-        for(int i=0;i <cantidad;i++){
-            serie_prod[i]=Gen_Fibo(i+1);
-        }
-        return serie_prod;
-    }
-
-*/
 
 }

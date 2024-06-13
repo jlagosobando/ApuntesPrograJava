@@ -6,14 +6,15 @@ import static com.example.dev.Main_Fibo.*;
 
 public class Fibo_Test {
 
-
     @Test
-    public void Test_Fibo1()
-    {int num_control, num_obtenido;
+    public void Test_Fibo1(){
+        int num_control, num_obtenido;
         num_control = 0;
         num_obtenido = Gen_Fibo(1);
         Assertions.assertEquals(num_control, num_obtenido);
+
     }
+
 
     @Test
     public void Test_Fibo2() {
@@ -24,6 +25,7 @@ public class Fibo_Test {
         Assertions.assertEquals(num_control, num_obtenido);
     }
 
+
     @Test
     public void Test_Fibo3(){
         int num_control, num_obtenido;
@@ -33,6 +35,7 @@ public class Fibo_Test {
         Assertions.assertEquals(num_control, num_obtenido);
 
     }
+
 
     @Test
     public void Test_Fibo4(){
@@ -72,22 +75,6 @@ public class Fibo_Test {
     }
 
 
-
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
 
 
 }
