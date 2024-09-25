@@ -50,26 +50,7 @@ public class Main {
         cajero2.cobrar(5620, 10000);
         System.out.println("******");
 
-        Market minimarket = new Market();
-        System.out.println(minimarket.getNombre());
 
-        
-        minimarket.printStock();
-        
-        minimarket.setStock(2);
-        minimarket.printStock();
-        
-        minimarket.getCajero().setNombre("el perkin del minimarket");
-        minimarket.getCajero().saludar();
-         
-                
-        System.out.println("******");
-        System.out.println("Cajero 4: " + cajero4.getNombre());
-        cajero4.setAltura(163);
-        System.out.println("Cajero 4: " + cajero4.getAltura());
-
-        System.out.println(cajero4);
-        cajero4.saludar();
         logger.info("Proceso Finalizado");
         
     }

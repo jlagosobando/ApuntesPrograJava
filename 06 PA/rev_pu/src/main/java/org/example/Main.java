@@ -38,16 +38,14 @@ public class Main {
             System.out.println("hola");
         }
         catch(Exception e){
-            e.printStackTrace();}
+            e.printStackTrace();
+        }
 
 
 
         System.out.println(suma(a,b));
         System.out.println(resta(a,b));
         System.out.println(mult(a,b));
-
-
-
 
     }
 }

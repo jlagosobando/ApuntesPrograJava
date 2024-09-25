@@ -89,6 +89,5 @@ public class Main_Test {
         {div_obtenida=div(4,0);}
         catch (ArithmeticException e)
         {Assertions.assertEquals(control,e.getMessage());}
-
     }
 }
