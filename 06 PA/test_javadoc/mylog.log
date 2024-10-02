@@ -1,0 +1,1 @@
+2024/10/02 13:45:54 - INFO: Registro Pedido Pedido{persona=Persona{nombre='Juan', edad=34, direccion='UFRO'}, producto=Producto{nombre='Comida', precio=5000.0, stock=10}, cantidad=1, precio total=5000.0}
