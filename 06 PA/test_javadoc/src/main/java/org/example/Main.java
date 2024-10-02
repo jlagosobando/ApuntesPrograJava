@@ -1,5 +1,6 @@
-package org.example;
+// encoding javadoc command line argument:  -encoding UTF-8 -charset UTF-8 -docencoding UTF-8
 
+package org.example;
 import java.util.Scanner;
 
 public class Main {
