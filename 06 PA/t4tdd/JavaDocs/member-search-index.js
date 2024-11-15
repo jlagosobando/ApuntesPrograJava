@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.example.dev","c":"Main_Fibo","l":"Gen_Fibo(int)"},{"p":"com.example.dev","c":"Main_Fibo","l":"Main_Fibo()","u":"%3Cinit%3E()"},{"p":"com.example.dev","c":"Main_Fibo","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"com.example.dev","c":"Main_Fibo","l":"Serie_Fibo(int)"}];updateSearchResults();
